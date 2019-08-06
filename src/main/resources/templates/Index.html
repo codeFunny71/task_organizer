@@ -27,7 +27,7 @@
     </div>
 
     <ol>
-        <li th:each="task : ${tasks}" th:text="${task}"></li>
+        <li th:each="task : ${tasks}" th:text="${task.getKey()}"></li>
     </ol>
 
 </main>
